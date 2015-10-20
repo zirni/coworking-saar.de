@@ -1,0 +1,42 @@
+-
+  name: Cafe Auszeit
+  city: Saarlouis
+  latlng: 49.314163,6.751283
+  url:
+  address: Sonnenstraße 3, 66740 Saarlouis
+  phone: +49 6831 4613110
+  opening_hours: |
+    Mo-Do: 8-21 Uhr
+    Fr-Sa: 9-24 Uhr
+    So: 8-21 Uhr
+  wifi: Kostenlos
+  comment: |
+      Sehr gemuetliches Cafe direkt in der Altstadt von Saarlouis.
+      Die Fruehstueckskarte ist besonders vielfaeltig. Mittags gibt es
+      ein paar Snacks. Musik ist etwas gewoehnungsbeduerftig. Meistens
+      laeuft die selbe Platte jeden Tag.
+
+
+-
+  name: Aramis
+  city: Saarlouis
+  latlng: 49.314163,6.751283
+  url: http://www.aramis-sls.de/
+  address: Weißkreuzstr. 7, 66740 Saarlouis
+  phone: 06831-5003775
+  opening_hours: |
+    So-Do 9-1 Uhr
+    Fr-Sa 9-2 Uhr
+  wifi: Kostenlos, leider SSH gesperrt
+  comment: |
+       Gemuetliche Cafe. Morgens mit Fruehstuecksangebot, Mittags
+       Snacks. Lounge Musik, bequeme Sofas.
+
+
+# Siebter Himmel:
+# Mellow Coffee:
+# Irish Pub:
+
+# Kneipe Gluehwuermschen:
+
+# Maison Creative:

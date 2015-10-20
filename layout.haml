@@ -1,0 +1,45 @@
+!!!
+%html{lang: 'de'}
+  %head
+    %meta{charset: "utf-8"}
+    %title Coworking Spaces in Saarlouis und Umgebung - Coworking Saar
+    %meta{:content => "Finde ausgewaehlte Coworking Spaces in Saarlouis und Umgebung, die wir gerne besuchen", :name => "description"}
+    %meta{:content => "noarchive", :name => "robots"}
+    %meta{:content => "width=device-width, initial-scale=1.0, maximum-scale=1.0", :name => "viewport"}
+
+    %style
+      = style
+  %body
+    .container
+      %h1
+        Coworking Saar
+        %br
+        Coworking Spaces in Saarlouis und Umgebung
+
+      - config.each do |city, locs|
+        %h2= city
+
+        - if locs.count > 0
+          %ul
+            - locs.each do |loc|
+              %li
+                %h3= loc.name
+                = loc.address
+                %a{href: "http://maps.google.com/?q=#{loc.latlng}"} bring mich dahin
+                %br
+                Tel: #{loc.phone}
+
+                - if loc.url
+                  %br
+                  %a{href: loc.url}= loc.url
+
+                %br
+                %strong Wifi: #{loc.wifi}
+                %br
+                %br
+                = loc.comment.gsub("\n", '<br>')
+                %br
+                Oeffnungszeiten:
+                %br
+                = loc.opening_hours.gsub("\n", '<br>')
+                %br
