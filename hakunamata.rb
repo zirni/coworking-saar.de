@@ -15,3 +15,5 @@ haml_engine = Haml::Engine.new(template)
 output = haml_engine.render(Object.new, config: config, style: style)
 
 File.open('index.html', 'w+') {|f| f.write(output) }
+
+puts 'built index.html ;-)'
