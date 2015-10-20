@@ -1,3 +1,4 @@
+# create index.html
 task :build do
   exec 'ruby hakunamata.rb'
 end
@@ -7,7 +8,6 @@ task :up do
   require "highline/import"
   require 'net/ftp'
 
-  sourcefile = 'index.html'
   uri = URI.parse('ftp://ftp.coworking-saar.de')
 
   username = ask 'user: '
@@ -18,6 +18,10 @@ task :up do
   ftp.passive = true
   ftp.login(username, password)
   ftp.chdir(uri.path)
-  ftp.putbinaryfile(sourcefile)
+  ftp.putbinaryfile('index.html')
+  ftp.putbinaryfile('impressum.html')
   ftp.close
+
+  puts
+  puts 'done'
 end

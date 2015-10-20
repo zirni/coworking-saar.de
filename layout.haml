@@ -11,13 +11,11 @@
       = style
   %body
     .container
-      %h1
-        Coworking Saar
-        %br
-        Coworking Spaces in Saarlouis und Umgebung
+      %h1 Coworking Spaces in Saarlouis und Umgebung
 
-
-      Wer Empfehlungen hat: ab an info (at) coworking-saar.de
+      Wer Empfehlungen hat: ab an input (at) coworking-saar.de
+      %br
+      Stand: #{Date.today.strftime('%d.%m.%Y')}
       %br
       %br
 
@@ -48,3 +46,5 @@
                 %br
                 = loc.opening_hours.gsub("\n", '<br>')
                 %br
+
+      %a{href:'/impressum.html'} Impressum
