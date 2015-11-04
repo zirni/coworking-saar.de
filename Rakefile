@@ -8,7 +8,7 @@ task :up do
   require "highline/import"
   require 'net/ftp'
 
-  uri = URI.parse('ftp://ftp.coworking-saar.de')
+  uri = URI.parse('ftp://coworking-saar.de')
 
   username = ask 'user: '
   password = ask('passwd: ') { |q| q.echo = false }

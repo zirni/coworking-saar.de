@@ -46,6 +46,23 @@
        Co-Working-Space mit großartiger Atmosphäre und sehr netten Leuten.
        Direkt hinter dem Hauptbahnhof, daher leicht erreichbar. Leider nicht ganz günstig.
 
+-
+  name: Cafe Amelie
+  city: Saarlouis
+  latlng: 49.3141183,6.7473109
+  url: http://www.amelie-saarlouis.de
+  address: Luxemburger Ring 1, 66740 Saarlouis
+  phone: +49 6831 166 97 70
+  opening_hours: |
+    Mo-Sa 10-18 Uhr
+  wifi: Kostenlos, leider SSH gesperrt
+  comment: |
+       Sehr tolles Ambiente mit viel historischem Kitsch in jeder Ecke. Manche Moebelstuecke
+       erinnern echt an Oma's altes Sofa oder Schrank. Selbstgebackener Kuchen ist reichlich
+       vorhanden wer drauf steht. Der Kaffee ist echt trinkbar und hat keinen eckeligen Beigeschmack.
+       Die Maedels die den Laden schmeissen sind sehr nett und zuvorkommend. Dienstag bis Samstag
+       gibts Mittags ne warme Suppe zum loeffeln. Schaut mal rein.
+
 # Siebter Himmel:
 # Mellow Coffee:
 # Irish Pub:
