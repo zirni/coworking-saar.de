@@ -32,6 +32,19 @@
        Gemuetliche Cafe. Morgens mit Fruehstuecksangebot, Mittags
        Snacks. Lounge Musik, bequeme Sofas.
 
+-
+  name: Ligatura
+  city: Saarbrücken
+  latlng: 49.2429927,6.9897586
+  url: http://www.ligatura.de/
+  address: Europaallee 27,66113 Saarbrücken
+  phone: 0681-96549983
+  opening_hours: |
+    Mo-Fr 9-19 Uhr
+  wifi: Kostenlos
+  comment: |
+       Co-Working-Space mit großartiger Atmosphäre und sehr netten Leuten.
+       Direkt hinter dem Hauptbahnhof, daher leicht erreichbar. Leider nicht ganz günstig.
 
 # Siebter Himmel:
 # Mellow Coffee:
