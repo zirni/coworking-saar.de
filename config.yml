@@ -63,6 +63,21 @@
        Die Maedels die den Laden schmeissen sind sehr nett und zuvorkommend. Dienstag bis Samstag
        gibts Mittags ne warme Suppe zum loeffeln. Schaut mal rein.
 
+-
+  name: Coyote Cafe
+  city: Saarlouis
+  latlng: 49.314000,6.751140
+  url: http://www.coyote.de/saarlouis/index_saarlouis.htm
+  address: Sonnenstraße 12, 66740 Saarlouis
+  phone: +49 6831 460180
+  opening_hours: |
+    So-Do: 10-01 Uhr
+    Fr-Sa: 10-03 Uhr
+  wifi: Kostenlos
+  comment: |
+      Sehr gemuetliches Cafe direkt in der Altstadt von Saarlouis.
+      Es gibt Freifunk WLan und sehr leckeres Finger-Food.
+      
 # Siebter Himmel:
 # Mellow Coffee:
 # Irish Pub:
