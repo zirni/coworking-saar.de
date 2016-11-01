@@ -6,21 +6,14 @@ end
 task :up do
   require 'uri'
   require "highline/import"
-  require 'net/ftp'
+  require 'net/sftp'
 
   uri = URI.parse('ftp://coworking-saar.de')
 
-  username = ask 'user: '
-  password = ask('passwd: ') { |q| q.echo = false }
-
-  ftp = Net::FTP.new
-  ftp.connect(uri.host, uri.port)
-  ftp.passive = true
-  ftp.login(username, password)
-  ftp.chdir(uri.path)
-  ftp.putbinaryfile('index.html')
-  ftp.putbinaryfile('impressum.html')
-  ftp.close
+  Net::SFTP.start(uri.host, username, password: password) do |ftp|
+    ftp.upload!('index.html')
+    ftp.upload!('impressum.html')
+  end
 
   puts
   puts 'done'
